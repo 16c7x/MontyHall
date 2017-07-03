@@ -7,41 +7,41 @@ To validate the results here is a state table showing the possible sequences of 
 
 |                     |         |         |         | Stick       | Switch      | 
 | -------             | ------- | ------- | ------- | -------     | -------     | 
-| Sequence            | Car     | Goat    | Goat    |             |             | 
+| Sequence            | car     | goat    | goat    |             |             | 
 | Stick               | guess   | reveal  |         | 1           |             | 
 | Switch              | guess   | reveal  | Switch  |             | 0           | 
 |                     |         |         |         |             |             | 
 | Sequence            | goat    | car     | goat    |             |             | 
-| Stick               | guess   |         | Reveal  | 0           |             | 
-| Switch              | guess   | Switch  | Reveal  |             | 1           | 
+| Stick               | guess   |         | reveal  | 0           |             | 
+| Switch              | guess   | Switch  | reveal  |             | 1           | 
 |                     |         |         |         |             |             | 
 | Sequence            | goat    | goat    | car     |             |             | 
 | Stick               | guess   | reveal  |         | 0           |             | 
-| Switch              | guess   | reveal  | Switch  |             | 1           | 
+| Switch              | guess   | reveal  | switch  |             | 1           | 
 |                     |         |         |         |             |             | 
-| Sequence            | Car     | Goat    | Goat    |             |             | 
+| Sequence            | car     | goat    | goat    |             |             | 
 | Stick               |         | guess   | reveal  | 0           |             | 
-| Switch              | Switch  | guess   | reveal  |             | 1           | 
+| Switch              | switch  | guess   | reveal  |             | 1           | 
 |                     |         |         |         |             |             | 
 | Sequence            | goat    | car     | goat    |             |             | 
 | Stick               | reveal  | guess   |         | 1           |             | 
-| Switch              | reveal  | guess   | Switch  |             | 0           | 
+| Switch              | reveal  | guess   | switch  |             | 0           | 
 |                     |         |         |         |             |             | 
 | Sequence            | goat    | goat    | car     |             |             | 
 | Stick               | reveal  | guess   |         | 0           |             | 
-| Switch              | reveal  | guess   | Switch  |             | 1           | 
+| Switch              | reveal  | guess   | switch  |             | 1           | 
 |                     |         |         |         |             |             | 
-| Sequence            | Car     | Goat    | Goat    |             |             | 
+| Sequence            | car     | goat    | goat    |             |             | 
 | Stick               |         | reveal  | guess   | 0           |             | 
-| Switch              | Switch  | reveal  | guess   |             | 1           | 
+| Switch              | switch  | reveal  | guess   |             | 1           | 
 |                     |         |         |         |             |             | 
 | Sequence            | goat    | car     | goat    |             |             | 
 | Stick               | reveal  |         | guess   | 0           |             | 
-| Switch              | reveal  | Switch  | guess   |             | 1           | 
+| Switch              | reveal  | switch  | guess   |             | 1           | 
 |                     |         |         |         |             |             | 
 | Sequence            | goat    | goat    | car     |             |             | 
 | Stick               | reveal  |         | guess   | 1           |             | 
-| Switch              | reveal  | Switch  | guess   |             | 0           | 
+| Switch              | reveal  | switch  | guess   |             | 0           | 
 | -------             | ------- | ------- | ------- | -------     | -------     | 
 | Total               |         |         |         | 3           | 6           | 
 | Percentage win rate |         |         |         | 33.33333333 | 66.66666667 |   
