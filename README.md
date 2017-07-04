@@ -1,5 +1,5 @@
 # MontyHall
-Trying to develop a model for the Monty Hall probelm
+A Simulation of the Monty Hall problem.
 
 https://en.wikipedia.org/wiki/Monty_Hall_problem
 
